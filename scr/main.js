@@ -1,4 +1,3 @@
-"use strict";
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.querySelector('.start-button');
     const timerDisplay = document.querySelector('.timer-display');
