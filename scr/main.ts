@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
           endTimeElement.textContent = `End time: ${formattedEndTime}`;
           timerDisplay.appendChild(endTimeElement);
 
-          // Her beregnes der tidsforskelden mellem start og slyt tidspunkterne
+          // Her beregnes der tidsforskelden mellem start og slut tidspunkterne
           const timeDifference = endTime.getTime() - startTime.getTime();
           const minutesDifference = Math.floor(timeDifference / 60000); // Forskellen i minutter
           const hoursDifference = Math.floor(minutesDifference / 60); // Forskellen i timer
